@@ -1,18 +1,31 @@
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 <head>
-    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8"/>
-    <title>TPAngular</title>
     <script src="js/angular.min.js"></script>
-    <link rel="=stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/base.css">
 </head>
+
 <body>
 <section id="todoapp">
     <header id="header">
-        <h1>TodoList</h1>
+        <h1>ToDoList</h1>
         <form action="#" id="todo-form">
-            <input type="text" id="new-todo" placeholder="Nouvelle tâche"/>
+            <input type="text" id="new-todo" placeholder="Nouvelle Tâche" autofocus autocomplete="off">
         </form>
     </header>
+
+    <section id="main">
+        <ul id="todo-list">
+            <li>
+                <div class="view">
+                    <input type="checkbox" class="toggle">
+                    <label>tâche 1 à effectuer</label>
+                    <button class="destroy"></button>
+                </div>
+            </li>
+        </ul>
+
+    </section>
 </section>
 </body>
 </html>
