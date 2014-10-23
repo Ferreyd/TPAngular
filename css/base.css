@@ -224,7 +224,7 @@ label[for='toggle-all'] {
 }
 
 #todo-list li .toggle:after {
-    content: '✔';
+    content: 'v';
     /* 40 + a couple of pixels visual adjustment */
     line-height: 43px;
     font-size: 20px;
@@ -278,7 +278,7 @@ label[for='toggle-all'] {
 }
 
 #todo-list li .destroy:after {
-    content: '✖';
+    content: 'x';
 }
 
 #todo-list li:hover .destroy {

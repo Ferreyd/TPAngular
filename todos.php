@@ -1,11 +1,6 @@
-<?php
-/**
- * Created by IntelliJ IDEA.
- * User: nicolas
- * Date: 23/10/14
- * Time: 11:00
- */
-
-
-
-?>
+[
+    {"name: "Enregistrer un tutoriel sur Angular", "completed":false)},
+    {"name: "Montrer le tutoriel sur Angular", "completed":false)},
+    {"name: "Apprendre à danser le gangnam style", "completed":false)},
+    {"name: "Montrer comment l'ajax c'est trop facile", "completed":true)}
+}
